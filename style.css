@@ -1,0 +1,8 @@
+/* body {
+    background: url('https://i.pinimg.com/originals/d4/18/e0/d418e0ff77be2cc891e08727a9b31a7d.gif');
+    background-repeat: no-repeat;
+} */
+.container-info {
+    display: grid;
+    justify-content: space-around;
+}
