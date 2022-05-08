@@ -1,16 +1,18 @@
 // VARIABLES
 let incData;
+let clicks = 0
 
-function handleGetData() {
-
+function handleGetData(e) {
+    // e.preventDefault()
     $.ajax({
         url: 'https://randomuser.me/api/', // API
         dataType: 'json', // returned data
         success: function(data) {
-            // console.log(data)
+            console.log('Clear to go', data)
             // $('div').append(`<h1> Gender: ${data["results"][0]["gender"]}</h1>`)
             incData = data
             apiData()
+
         },
         error: function(error) {
             console.log('something went wrong', error)
@@ -32,12 +34,21 @@ const apiData = () => {
     // location data
     $('#location').text(`Location: ${incData['results'][0]['location']['state']}, ${incData['results'][0]['location']['country']}`)
 
+    // timezone data
+    $('#time-zone').text(`Timezone: ${incData['results'][0]['location']['timezone']['offset']}, ${incData['results'][0]['location']['timezone']['description']}`)
+
     // image data
-    $('.flex-2').append(`<img src='${incData['results'][0]['picture']['large']}' />`)
+    $('img').attr('src', incData['results'][0]['picture']['large'])
+    $('#img-2').attr('src', incData['results'][0]['picture']['thumbnail'])
 
     // age data
     $('#age').text(`Age: ${incData['results'][0]['dob']['age']} years old!`)
+
+    // birth data
+    $('#dob').text(`D.O.B: ${incData['results'][0]['dob']['date']} `)
+
 }
+
 
 // function enterVoid () {
 //     const body = $('body')
