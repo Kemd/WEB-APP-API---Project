@@ -1,8 +1,37 @@
-/* body {
-    background: url('https://i.pinimg.com/originals/d4/18/e0/d418e0ff77be2cc891e08727a9b31a7d.gif');
-    background-repeat: no-repeat;
-} */
+body {
+    /* background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat;
+    background-size: 100vh, 90%; */
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+a {
+    text-decoration: none;
+    font-size: 50px;
+}
 .container-info {
     display: grid;
-    justify-content: space-around;
+    /* justify-content: center;
+    align-items: center; */
+    border: solid 1px blue;
+    margin-top: 50px;
 }
+
+.flex-2 {
+    background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif')
+}
+
+.same {
+    /* margin: 0 auto; */
+    padding: 10px;
+    word-wrap: break-word;
+}
+
+#random {
+    margin: 20px 0 0 150px;
+    padding: 10px;
+}
+
