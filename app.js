@@ -1,6 +1,5 @@
 // VARIABLES
 let incData;
-let clicks = 0
 
 function handleGetData(e) {
     // e.preventDefault()
@@ -46,6 +45,12 @@ const apiData = () => {
 
     // birth data
     $('#dob').text(`D.O.B: ${incData['results'][0]['dob']['date']} `)
+
+    // Phone data
+    $('#phone').text(`Phone: ${incData['results'][0]['phone']}`)
+
+    // Email data
+    $('#email').text(`Email: ${incData['results'][0]['email']}`)
 
 }
 
