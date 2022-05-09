@@ -45,6 +45,12 @@ a {
     border-radius: 20%;
 }
 
+.fa-solid,
+.fa-star-shooting,
+i {
+    color: white;
+}
+
 /* @media only screen and (min-width: 500px) {
     body {
         background-color: blue;
