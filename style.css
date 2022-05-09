@@ -2,18 +2,27 @@
     box-sizing: border-box;
 }
 body {
-    /* background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat; */
+    background: url('https://c.tenor.com/FsCO6cl82yYAAAAC/light-ball-effects.gif') no-repeat;
+    background-position: right top;
+    background-color: rgb(3, 0, 3);
     text-align: center;
-    color: rgb(134, 130, 130);
+    background-size: auto;
+    font-size: 25px;
+    color: rgb(5, 175, 226);
     width: 500px;
     margin-left: 33%;
     margin-right: 33%;
+    /* background-color: purple */
+    /* perspective: 1000px; */
 }
+/* h3:hover {
+    transform: rotateZ(-20deg);
+} */
 
 nav {
     display: flex;
     justify-content: space-around;
-    border: solid 1px red;
+    /* border: solid 1px red; */
 }
 
 a {
@@ -21,12 +30,11 @@ a {
     font-size: 50px;
 }
 .container-info {
-    background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat;
-    background-size: 100%;
+    /* background: url('./img/bgapp.PNG') no-repeat; */
+    /* background-size: cover; */
     display: grid;
-    border: solid 1px blue;
-    margin-top: 50px;
-    text-align: center;
+    /* border: 1px blue; */
+    margin-top: 20px;
 }
 
 /* .flex-2 {
@@ -35,8 +43,10 @@ a {
 
 #random {
     /* margin: 0 auto; */
-    margin-top: 50px;
+    margin-top: 20px;
     padding: 10px;
+    font-size: 30px;
+    border-radius: 20%;
 }
 
 /* @media only screen and (min-width: 500px) {
