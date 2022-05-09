@@ -17,6 +17,10 @@ APP is used to generate fake user data from an API
 
 ---
 
+### Future Features
+
+- Include a way to save/star user as favorites
+
 ### Screenshots
 
 ![screenshot of design idea](./img/Wireframe.PNG)
