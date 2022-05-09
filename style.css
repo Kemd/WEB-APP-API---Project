@@ -1,11 +1,13 @@
+* {
+    box-sizing: border-box;
+}
 body {
-    /* background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat;
-    background-size: 100vh, 90%; */
+    /* background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat; */
     text-align: center;
     color: rgb(134, 130, 130);
     width: 500px;
-    margin: 0 auto;
-    margin-top: 20px;
+    margin-left: 33%;
+    margin-right: 33%;
 }
 
 nav {
@@ -22,8 +24,6 @@ a {
     background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat;
     background-size: 100%;
     display: grid;
-    /* justify-content: center;
-    align-items: center; */
     border: solid 1px blue;
     margin-top: 50px;
     text-align: center;
@@ -33,14 +33,9 @@ a {
     background: url('https://thumbs.gfycat.com/AlienatedUnripeGnu-max-1mb.gif') no-repeat;
 } */
 
-/* .same {
-    margin: 0 auto; */
-    /* padding: 10px; */
-    /* word-wrap: break-word;
-} */
-
 #random {
     /* margin: 0 auto; */
+    margin-top: 50px;
     padding: 10px;
 }
 
