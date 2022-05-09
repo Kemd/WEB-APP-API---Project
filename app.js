@@ -62,3 +62,4 @@ const apiData = () => {
 //         'background-repeat': 'no-repeat'
 //     })
 // }
+
