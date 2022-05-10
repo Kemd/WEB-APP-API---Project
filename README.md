@@ -24,6 +24,9 @@ APP is used to generate fake user data from an API
 ### Screenshots
 
 ![screenshot of design idea](./img/Wireframe.PNG)
+---
+![screenshot of website](./img/Site1.PNG)
+![screenshot of website](./img/site2.PNG)
 
 ---
 
