@@ -21,6 +21,7 @@ function handleGetData(e) {
 
 //button
 $('#random').on('click', handleGetData)
+$('button').fadeOut(5000).fadeIn(2000).fadeOut(5000).fadeIn(2000)
 
 //function that handle all the incoming data from the API
 const apiData = () => {
@@ -54,6 +55,12 @@ const apiData = () => {
 
 }
 
+$('#capture').on('click', function() {
+    $('.container-info').css({
+        'position': 'relative',
+        'left': '0'
+    })
+})
 
 // function enterVoid () {
 //     const body = $('body')

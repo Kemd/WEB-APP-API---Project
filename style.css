@@ -34,6 +34,7 @@ a {
     margin-top: 20px;
 }
 
+/* buttons */
 #random {
     /* margin: 0 auto; */
     margin-top: 20px;
@@ -46,15 +47,10 @@ i {
     color: rgb(0, 0, 0);
 }
 
-/* @media only screen and (min-width: 500px) {
+/* small & medium screens */
+ @media only screen and (max-width: 1430px) {
     body {
-        background-color: blue;
+        margin: 0 auto;
     }
 }
 
-@media only screen and (min-width: 1300px) {
-    body {
-        background-color: brown;
-text-align: center;
-    }
-} */
