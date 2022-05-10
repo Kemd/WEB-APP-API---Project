@@ -28,7 +28,7 @@ APP is used to generate fake user data from an API
 ---
 
 ## Visit the Website
-    [![Netlify Status](https://api.netlify.com/api/v1/badges/437b0f9f-fa7e-4bce-b609-6c4d3c1e1afe/deploy-status)](https://app.netlify.com/sites/getuserdata/deploys)
+    ![getUserData Site](https://getuserdata.netlify.app)
 
 ###### link
 [Wireframe Link](https://wireframe.cc/v7b0Xf)
