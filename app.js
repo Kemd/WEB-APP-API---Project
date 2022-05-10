@@ -55,18 +55,3 @@ const apiData = () => {
 
 }
 
-$('#capture').on('click', function() {
-    $('.container-info').css({
-        'position': 'relative',
-        'left': '0'
-    })
-})
-
-// function enterVoid () {
-//     const body = $('body')
-//     body.css({
-//         'background': "url(https://mymodernmet.com/wp/wp-content/uploads/2014/02/3d-gifs-3.gif)",
-//         'background-repeat': 'no-repeat'
-//     })
-// }
-
