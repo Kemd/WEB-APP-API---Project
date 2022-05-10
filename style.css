@@ -13,11 +13,7 @@ body {
     margin-left: 33%;
     margin-right: 33%;
     /* background-color: purple */
-    perspective: 1000px;
 }
-/* h3:hover {
-    transform: rotateZ(-20deg);
-} */
 
 nav {
     display: flex;
@@ -34,13 +30,8 @@ a {
     /* background-size: cover; */
     display: grid;
     /* border: solid 1px blue; */
-    box-shadow: 20px 40px 150px 10px rgb(70, 4, 83);
+    box-shadow: 40px 40px 150px 10px rgb(70, 4, 83);
     margin-top: 20px;
-    transform: rotateY(-15deg);
-}
-.container-info:hover {
-    box-shadow: 40px 40px 150px rgb(70, 4, 83);
-    transform: rotateY(10deg);
 }
 
 #random {
@@ -51,10 +42,8 @@ a {
     border-radius: 20%;
 }
 
-.fa-solid,
-.fa-star-shooting,
 i {
-    color: white;
+    color: rgb(0, 0, 0);
 }
 
 /* @media only screen and (min-width: 500px) {
