@@ -8,7 +8,6 @@ function handleGetData(e) {
         dataType: 'json', // returned data
         success: function(data) {
             console.log('Clear to go', data)
-            // $('div').append(`<h1> Gender: ${data["results"][0]["gender"]}</h1>`)
             incData = data
             apiData()
 
